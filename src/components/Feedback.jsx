@@ -43,7 +43,7 @@ const Feedback = () => {
          return (
            <>
              <Section title="Please leave feedback">    
-          <FeedbackOptions options={[good,neutral,bad]} onLeaveFeedback={handleClick} />
+          <FeedbackOptions options={['good','neutral','bad']} onLeaveFeedback={handleClick} />
         </Section>
              <Section title="Statistics">
                { countTotalFeedback() > 0 ?
