@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.item {
+  list-style: none;
+}
+
+.btn {
+  padding: 10px;
+  cursor: pointer;
+  color: aqua;
+}
